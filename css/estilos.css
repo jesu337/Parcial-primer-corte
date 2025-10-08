@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    padding: 10px;
+}
+
+
+header {
+    display: flex;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+header p {
+    color: rgb(108, 96, 96);
+}
+
+.contenedor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 150px 150px 150px;
+    grid-template-rows: auto auto;
+    
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.navegacion {
+    margin-left: auto;
+    display: flex;
+    
+}
+
+.navegacion p {
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+
+.caja img {
+    width: 100%;
+    max-width: 250px;
+    gap: 10px;
+}
+
+.grande {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    grid-row: 1 / span 2;
+}
+
+.contenedor2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: auto auto;
+}
+
+.contenedor2 {
+    width: 100%;
+    max-width: 1510px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.cajita img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;    
+}
+
+
+.subtitulo {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor3 {
+    display: flex;
+}
+
+.contenedor3 h2 {
+    margin-bottom: 8px;
+}
+
+.contenedor3 p {
+    margin-right: 30px;
+    color: rgb(108, 96, 96);
+    margin-bottom: 10px;
+}
+
+
